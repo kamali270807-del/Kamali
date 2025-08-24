@@ -1,0 +1,22 @@
+PROGRAM :
+
+num=int(input(“enter a number:”))
+sum=0
+n=len(str(num))
+temp=num
+while temp>0:
+digit=temp%10
+sum+=digit**n
+temp//=10
+if sum==num:
+print(“Yes”)
+print(num,”is an armstrong number.”)
+else:
+print(“No”)
+print(num, “is not an armstrong number.”)
+
+OUTPUT 1 :
+
+enter a number:153
+Yes
+153 is not an armstrong number.
