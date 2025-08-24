@@ -2,3 +2,10 @@ a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
+OUTPUT :
+Enter number of terms: 5
+0 1 1 2 3
+Enter number of terms: 7
+0 1 1 2 3 5 8
+Enter number of terms: 1
+0
