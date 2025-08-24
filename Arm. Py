@@ -19,4 +19,8 @@ OUTPUT 1 :
 
 enter a number:153
 Yes
-153 is not an armstrong number.
+153 is an armstrong number.
+OUTPUT 2 :
+enter a number :120
+No
+120 is not an armstrong 
